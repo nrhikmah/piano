@@ -1,0 +1,32 @@
+body {
+    background-color: #cd0074;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    color: #84004d;
+}
+
+.piano {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    line-height: 1;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 90px;
+    height: 250px;
+    text-align: center;
+    /* margin: 0px; */
+    background-color: white;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
